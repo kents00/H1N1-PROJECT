@@ -17,6 +17,8 @@ Educational Purposes Only
 
 apt install git
 
+apt install scapy
+
 git clone https://github.com/kents00/H1N1-DDOS-PROJECT.git
 
 cd H1N1-DDOS-PROJECT
