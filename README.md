@@ -19,7 +19,7 @@ apt install git
 
 apt install scapy
 
-git clone https://github.com/kents00/H1N1-DDOS-PROJECT.git
+git clone https://github.com/kents00/H1N1-PROJECT.git
 
 cd H1N1-DDOS-PROJECT
 
