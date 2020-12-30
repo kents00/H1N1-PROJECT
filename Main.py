@@ -1,29 +1,36 @@
-#H1N1 
-#DoS/DDoS Attack Tool
-import socket
+#Menu 
+#H1N1-PROJECT
 import os
-from tqdm import tqdm
 import time
-for i in tqdm(range(1000)):
+def Menu():
+  os.system('clear')
   time.sleep(0.001)
-    
-os.system('clear')
-print ("""\033[37;1m
-=====================================
- .##.....##....##...##....##....##..
- .##.....##..####...###...##..####..
- .##.....##....##...####..##....##..
- .#########....##...##.##.##....##..
- .##.....##....##...##..####....##..
- .##.....##....##...##...###....##..
- .##.....##..######.##....##..######
-=====================================
-= Scrpit By Kents00 | Version 0.001 =
-=====================================""")
-print ("\033[34;1mType 'Help' to see tools")
-select = input ("\033[32;1m~H1N1~#")
-
-if select == "Help":
-  os.system('python lrsd.py')
-else:
-	print ("Invalid")
+  print("""\033[37;1m
+  ___________________________________
+|                                     |
+| .##.....##....##...##....##....##.. |
+| .##.....##..####...###...##..####.. |
+| .##.....##....##...####..##....##.. |
+| .#########....##...##.##.##....##.. |
+| .##.....##....##...##..####....##.. |
+| .##.....##....##...##...###....##.. |
+| .##.....##..######.##....##..###### |
+| ___________________________________ |
+ = Scrpit By Kents00 | Version 0.001 =
+ =====================================""")
+ 
+  print ("\033[35;1m[0].DDOS [1].Password Gen ")
+  select = input ("\033[32;1m~H1N1~#")
+  
+  if select == '0':
+    print ("\033[37;1m[1].UDP ATTACK\n[2].SYN ATTACK\n[3].PROXY ATTACK")
+    Options = input ("\033[32;1m~H1N1~#")
+    if select == '1':
+      os.system('clear')
+      os.system('sh udp.sh')
+    elif select == '2':
+      os.system('clear')
+      os.system('python tcpsyn.py') 
+    elif select == '3':
+      os.system('clear')
+      os.system('python proxyd.py') 
