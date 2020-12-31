@@ -34,3 +34,4 @@ def Menu():
     elif select == '3':
       os.system('clear')
       os.system('python proxyd.py') 
+Main()
