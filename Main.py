@@ -19,7 +19,7 @@ def Menu():
  = Scrpit By Kents00 | Version 0.001 =
  =====================================""")
  
-  print ("\033[35;1m[0].DDOS [1].Password Gen ")
+  print ("\033[35;1m[0].DDOS ")
   select = input ("\033[32;1m~H1N1~#")
   
   if select == '0':
