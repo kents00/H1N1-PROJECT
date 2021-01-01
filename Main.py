@@ -22,11 +22,9 @@ print ("\033[35;1m[0].DDOS ")
 select = input ("\033[32;1m~H1N1~#")
   
 if select == '0':
-  l
   print ("\033[37;1m[1].UDP ATTACK\n[2].SYN ATTACK\n[3].PROXY ATTACK")
   Options = input ("\033[32;1m~H1N1~#")
   if select == '1':
-    l
     os.system('clear')
     os.system('sh udp.sh')
   elif select == '2':
