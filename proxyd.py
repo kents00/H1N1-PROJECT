@@ -127,7 +127,7 @@ print("""\033[37;1m
  = Scrpit By Kents00 | Version 0.001 =
  =====================================""")
 # Site
-url = raw_input("Target Ex:(http://www.example.com):")
+url = input("Target Ex:(http://www.example.com):")
 host_url = url.replace("http://", "").replace("http://", "").split('/')[0]
  
 #Proxy
