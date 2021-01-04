@@ -131,7 +131,7 @@ url = input("Target Ex:(http://www.example.com):")
 host_url = url.replace("http://", "").replace("http://", "").split('/')[0]
  
 #Proxy
-in_file = open(raw_input("File Proxy List(DEFAULT proxy.txt): "),"r")
+in_file = open(input("File Proxy List(DEFAULT proxy.txt): "),"r")
 proxyf = in_file.read()
 in_file.close()
  
