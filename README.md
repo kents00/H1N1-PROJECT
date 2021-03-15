@@ -17,7 +17,7 @@ Educational Purposes Only
 
 apt install git
 
-apt install scapy
+pip nstall scapy
 
 git clone https://github.com/kents00/H1N1-PROJECT.git
 
