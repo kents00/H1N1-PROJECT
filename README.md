@@ -12,12 +12,14 @@ I'm not responsible for your actions
 
 Educational Purposes Only
 
+Don't use in illegal activities
+
 
 # HOW TO INSTALL 
 
 apt install git
 
-pip nstall scapy
+pip install scapy
 
 git clone https://github.com/kents00/H1N1-PROJECT.git
 
