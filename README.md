@@ -1,7 +1,8 @@
 <p align=center>
-  <br>
   <img src="H1N1-PROJECT.jpg"/>
-  <span>Simple Ddos Attack </span>
+  <br>
+  <p align="center">
+  <span>  Simple Ddos Attack </span>
   <br>
   <a target="_blank" href="https://www.python.org/downloads/" title="Python version"><img src="https://img.shields.io/badge/python-%3E=_3.6-green.svg"></a>
   <a target="_blank" href="LICENSE" title="License: MIT"><img src="https://img.shields.io/github/license/Kents00/H1N1-PROJECT?style=flat-square"></a>
