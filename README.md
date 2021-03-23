@@ -4,12 +4,15 @@
   <p align="center">
   <span>  Simple Ddos Attack </span>
   <br>
-  <a target="_blank" href="https://www.python.org/downloads/" title="Python version"><img src="https://img.shields.io/badge/python-%3E=_3.6-green.svg"></a>
+  <a target="_blank" href="https://www.python.org/downloads/" title="Python version"><img src="https://img.shields.io/badge/Python%20-%3E%3D%203.6-green"></a>
   <a target="_blank" href="LICENSE" title="License: MIT"><img src="https://img.shields.io/github/license/Kents00/H1N1-PROJECT?style=flat-square"></a>
+  <a target="_blank" href="https://github.com/kents00/H1N1-PROJECT" title="Test Passing"><img src="https://img.shields.io/badge/Test-passing-blue"></a>
+  <a target="_blank" href="https://github.com/kents00/H1N1-PROJECT" title="Test Passing"><img src="https://img.shields.io/badge/Test-passing-blue"></a>
   
 ## Info
 
-```console
+```
+
 A Distributed Denial of Service (DDOS) is an attempt to make an
 online service unavailable by overwhelming it with traffic from multiple sources.
 They target a wide variety of important resources from banks to news websites,
