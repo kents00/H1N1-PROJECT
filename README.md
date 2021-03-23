@@ -22,7 +22,7 @@ and present a major challenge to making sure people can publish and access impor
   
 ## Installation
 
-```console
+```
 # clone the repo
 $ git clone https://github.com/kents00/H1N1-PROJECT.git
 
