@@ -1,1 +1,1 @@
-pip install scapy
+scapy>=2.4.4
