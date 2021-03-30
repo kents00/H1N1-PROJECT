@@ -7,7 +7,7 @@
   <a target="_blank" href="https://www.python.org/downloads/" title="Python version"><img src="https://img.shields.io/badge/Python%20-%3E%3D%203.6-green"></a>
   <a target="_blank" href="LICENSE" title="License: MIT"><img src="https://img.shields.io/github/license/Kents00/H1N1-PROJECT?style=flat-square"></a>
   <a target="_blank" href="https://github.com/kents00/H1N1-PROJECT" title="Test Passing"><img src="https://img.shields.io/badge/Test-passing-blue"></a>
-  <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/kents00/H1N1-PROJECT/total?color=green">
+  <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/Kents00/H1N1-PROJECT/total?color=green&label=downloads&style=plastic">
   
 ## Info
 
