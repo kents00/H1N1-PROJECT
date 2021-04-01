@@ -1,7 +1,8 @@
-
+from functools import cache
 from queue import Queue
 from optparse import OptionParser
 import time,sys,socket,threading,logging,urllib.request,random
+@cache
 def user_agent(): #uagent class
 	global uagent
 	uagent=[]
