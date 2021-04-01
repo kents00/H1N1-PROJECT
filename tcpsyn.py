@@ -1,9 +1,7 @@
 #Please install scapy 
 #H1N1 tool
-from functools import cache
 import socket, random, sys, threading
 from scapy.all import *
-@cache
 print("""\033[37;1m
   ___________________________________
 |                                     |
