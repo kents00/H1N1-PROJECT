@@ -1,7 +1,9 @@
 #Please install scapy 
 #H1N1 tool
+from functools import cache
 import socket, random, sys, threading
 from scapy.all import *
+@cache
 print("""\033[37;1m
   ___________________________________
 |                                     |
@@ -12,9 +14,7 @@ print("""\033[37;1m
 | .##.....##....##...##..####....##.. |
 | .##.....##....##...##...###....##.. |
 | .##.....##..######.##....##..###### |
-| ___________________________________ |
- = Scrpit By Kents00 | Version 0.001 =
- =====================================""")
+| ___________________________________ |""")
 #H1N1 menu logo
 target = input('IP Target : ')
 port = int(input("Port : "))
